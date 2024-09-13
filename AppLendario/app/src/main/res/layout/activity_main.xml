@@ -1,0 +1,50 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/question_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="O Palmeiras tem mundial?"
+        android:textSize="24sp"
+        android:textAlignment="center"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button_sim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sim" />
+
+        <Button
+            android:id="@+id/button_nao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Não"
+            android:layout_marginLeft="16dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/counter_sim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sim: 0"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/counter_nao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Não: 0"
+        android:layout_marginTop="8dp"/>
+</LinearLayout>
